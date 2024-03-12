@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     min-height: 100vh ;
+     background: url(./wp5339178.jpg);
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    
+  z-index: 99%
+}
+
+.container{
+    border: 2px solid rgb(177, 171, 171) ;
+    border-radius: 2%;
+    position: absolute;
+    left: 40%;
+    top: 27%;
+    padding: 4%;
+    backdrop-filter: blur(20px);
+    
+    
+}
+img{
+    display: block;
+    max-width: 99%;
+    height: auto;
+    opacity:0.8
+    
+}
+#birthday{
+    width: 70%;
+}
+.container h1{
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+}
+.us{
+    
+    border-radius: 20px;
+    height: 20px;
+    padding: 10px;
+
+    
+}
+#uss{border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    padding: 5px; 
+   }
+.sub{
+    width: 100%;
+    height: 50%;
+     border-radius:20px ;
+     padding: 10px;
+}
+.logo{
+    font-size: 1.7em;
+    color: aliceblue;
+    user-select: none;
+    border: 1.5px solid ;
+    border-radius: 10px;
+}
+.navi a{
+    position: relative;
+    font-size: 1.2em;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight:500;
+    margin-left: 40px;
+  }
+.navi a::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px; 
+  background: blanchedalmond;
+  border-radius: 5px; 
+  left: 0;
+  bottom: -7px;
+  transform: scale(0);
+  transition:transform .5s;
+}
+.navi a:hover::after{
+    transform: scale(1);
+}
+
+
+
+#log{
+    width:130px ;
+    height: 30px;
+    background: transparent;
+    border: 2px solid blanchedalmond;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 0.5s;
+
+}
+#log:hover{
+    background: blanchedalmond;
+    color: #162923
+}
+
+.container .ico{position: absolute;
+top: 0;
+right: 0;
+width: 45px;
+height: 45px;
+background:#162938;
+font-size: 2em;
+color: aliceblue;
+justify-content: center;
+display: flex; 
+align-items: center;
+overflow: hidden;
+border-bottom-left-radius: 20px;
+cursor: pointer;
+z-index: 1;
+}
+#error{
+    color: red;
+    
+    height: 10%;
+font-style: italic;}
+
+.tex{color:blanchedalmond;}
+
+#thnx{
+    color: greenyellow;
+}

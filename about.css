@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    }
+
+.personnel{ border: 2px solid rgb(177, 171, 171) ;
+    border-radius: 2%;
+   
+    left: 0%;
+    top: 27%;
+    padding: 3%;
+    backdrop-filter: blur(20px);
+    bottom: 1%;
+}
+
+    header{
+        position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    
+  z-index: 99%
+    }
+    .logo{ 
+        position: center;
+    }
+    .personnel2{ border: 2px solid rgb(177, 171, 171) ;
+        border-radius: 2%;
+        /* position: absolute; */
+        left: 35%;
+        top: 27%;
+        padding: 3%;
+        backdrop-filter: blur(20px);
+        bottom: 1%;
+    }
+    .personnel3{ border: 2px solid rgb(177, 171, 171);
+        border-radius: 2%;
+        /* position: absolute; */
+        left: 35%;
+        top: 27%;
+        padding: 70px;
+        backdrop-filter: blur(20px);
+        bottom: 1%;
+        margin-top: 0px;
+    }
+    .all{
+        
+        width:500px ;
+        height: 500px;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        position: absolute;
+         top:20%;
+            left: 30%;
+
+    
+    
+    
+   
