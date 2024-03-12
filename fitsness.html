@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fitness.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2 class="logo">yes you can</h2>
+        <nav class="navi">
+            <a href="#">home</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <button id="log"> login</button>
+        </nav>
+        
+    </header>
+
+   <div class="container">
+    <span class="ico">
+        <ion-icon name="close"></ion-icon>
+    </span>
+    
+    <h1>login</h1>
+    <form action="">
+        <div class="inputt">
+<label for="name" class="tex"> <b>Name</b></label> 
+<input class="us" type="text" id="naa" placeholder="           username   " required= >
+
+</div>
+<br>
+<!-- <div class="inputt">
+ <label for="email" class="tex"><b>Email</b></label>
+    <input class="us" type="email" id="emaill" placeholder=" please enter email">   
+</div> -->
+
+ <br>
+<div class="inputt">
+    <label for="passwor" class="tex"><b>password</b></label>
+    <input class="us" type="password" id="psw"
+    oninput="checkpasswordLength()"  placeholder="your password"  >
+</div>
+    <br>
+    <p id="error"> </p>
+    <p id="thnx"></p>
+    <br>
+    <button  type="submit" class="sub">login</button>
+
+
+    </form>
+       
+    
+   </div>
+    
+</body>
+<script src="./fitness.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
