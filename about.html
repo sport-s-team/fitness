@@ -3,29 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <link rel="stylesheet" href="./about.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>Document</title>
 </head>
-<header>
-    <h2 class="logo">yes you can</h2>
-    <nav class="navi">
-        <a href="#">home</a>
-        
-    </nav>
-</header>
 <body>
-    <div class="all">
-<div class="personnel"> 
-    <h1>Personnel Trainer</h1>
-</div>
-<div class="personnel2"> 
-    <h1>Master class Pilates</h1>
-</div>
-<div class="personnel3"> 
-    <h1 class="title">aerobic</h1>
-</div>
-</div>
-</body>
+    <div class="contain">
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/fitness-exercise-woman-with-personal-trainer-gymnastics-gym-training-balance-wellness-athlete-female-with-coach-support-help-with-legs-flexibility-aerobics-pilates_590464-179361.jpg" alt="">
+            <div class="informa"> 
+                <h1>Personal trainer</h1>
+                <p id="p1">- Session From 15 June to 30 September <br>- price:700 dt <br> National Certificate</p>
+                
+                <button id="btn1" class="al">up</button>
+                <button id="btn2" class="al">down</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/group-young-sporty-people-practicing-yoga-lesson-with-instructor-yoga-class-studio-room_341052-3539.jpg?size=626&ext=jpg" alt="">
+            <div class="informa"> 
+                <h1>Pilat</h1>
+                <p id="p2">- Session From 20 January to 10 March <br>-Price: 900dt <br>- Master Class Trainer</p>
+                
+                <button id="btn3" class="al">up</button>
+                <button id="btn4" class="al">down</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://img.freepik.com/free-photo/portrait-woman-using-fitness-app-doing-workout-from-home-sits-yoga-mat-with-smartphone_1258-189323.jpg" alt="">
+            <div class="informa"> 
+                <h1>Freestyle</h1>
+                <p id="p3">- Session From 11 February to 20 August <br>-price: 1000dt <br>- Certificate in Aerobic</p>
+                
+                <button id="btn5" class="al">up</button>
+                <button id="btn6" class="al">down</button>
+                
+                 </div>
+                 </div>
+                 <div id="todo">
+                    <h4>put your name to add in this session</h4>
+                    <input type="text" id="name" placeholder="enter your name please">
+                    <button id="bat" onclick="addTask()">Add name</button>
+                    
+                </div> 
+                </div>
+                <ul id="line"></ul>    
+               
+        </body>
 <script src="./about.js"></script>
 </html>
