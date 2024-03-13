@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
      min-height: 100vh ;
-     background: url(./wp5339178.jpg);
+     background: url(./Best-Personal-Trainers-in-Edgewater-MD-1024x577.png);
     
 }
 
@@ -20,11 +20,11 @@ header{
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    /* background-color: red; */
+    
     display: flex;
     justify-content: space-between;
     
-  z-index: 99%
+ 
 }
 
 .container{
@@ -45,9 +45,7 @@ img{
     opacity:0.8
     
 }
-#birthday{
-    width: 70%;
-}
+
 .container h1{
     text-align: center;
     font-size: 35px;
@@ -57,7 +55,7 @@ img{
     
     border-radius: 20px;
     height: 20px;
-    padding: 10px;
+    padding: 20px;
 
     
 }
@@ -68,37 +66,28 @@ img{
    }
 .sub{
     width: 100%;
-    height: 50%;
+    height: 40%;
      border-radius:20px ;
      padding: 10px;
+     text-size-adjust: px;
 }
 .logo{
     font-size: 1.7em;
-    color: aliceblue;
+    color: rgb(28, 70, 107);
     user-select: none;
     border: 1.5px solid ;
     border-radius: 10px;
 }
-.navi a{
+ .navi a{
     position: relative;
     font-size: 1.2em;
     color: aliceblue;
     text-decoration: none;
     font-weight:500;
-    margin-left: 40px;
-  }
-.navi a::after{
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px; 
-  background: blanchedalmond;
-  border-radius: 5px; 
-  left: 0;
-  bottom: -7px;
-  transform: scale(0);
-  transition:transform .5s;
-}
+    margin-left: 40px;} 
+
+  
+
 .navi a:hover::after{
     transform: scale(1);
 }
@@ -109,44 +98,19 @@ img{
     width:130px ;
     height: 30px;
     background: transparent;
-    border: 2px solid blanchedalmond;
+    border: 2px solid rgb(38, 56, 139);
     cursor: pointer;
     font-size: 1.1em;
-    color: aliceblue;
+    color: rgb(0, 98, 184);
     font-weight: 500;
     margin-left: 40px;
     transition: 0.5s;
 
 }
 #log:hover{
-    background: blanchedalmond;
-    color: #162923
+    background: rgb(255, 255, 255);
+    color: #0f0099
 }
-
-.container .ico{position: absolute;
-top: 0;
-right: 0;
-width: 45px;
-height: 45px;
-background:#162938;
-font-size: 2em;
-color: aliceblue;
-justify-content: center;
-display: flex; 
-align-items: center;
-overflow: hidden;
-border-bottom-left-radius: 20px;
-cursor: pointer;
-z-index: 1;
-}
-#error{
-    color: red;
-    
-    height: 10%;
-font-style: italic;}
-
-.tex{color:blanchedalmond;}
-
-#thnx{
-    color: greenyellow;
+#naa.us{
+    margin: 30px ;
 }
